@@ -1,0 +1,94 @@
+html{
+    background-color: grey;
+    border: none;
+}
+header {
+    background: #dfe8e1;
+    border-bottom: 2px solid #c5d0c7;
+}
+
+nav {
+    max-width: 1200px;
+    margin: auto;
+    padding: 18px 30px;
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+nav h1 {
+    margin-right: auto;
+    color: #30483a;
+    font-size: 25px;
+}
+
+nav button {
+    border: none;
+    background: #cbd9ce;
+    color: #30483a;
+    padding: 10px 16px;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.nivel {
+    margin: 30px 0;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.principiante {
+    background: #e9f3e9;
+}
+
+.principiante h3 {
+    color: #527653;
+}
+
+.intermedio {
+    background: #f8f0dc;
+}
+
+.intermedio h3 {
+    color: #80682d;
+}
+
+.dificil {
+    background: #f5e6e6;
+}
+
+.dificil h3 {
+    color: #875454;
+}
+
+#tiposescalada h5 {
+    grid-column: 1 / -1;
+
+    background: #fff2d3;
+    padding: 18px;
+
+    border-radius: 8px;
+
+    color: #6d592e;
+    font-size: 14px;
+}
+
+.seguridad {
+    max-width: 1050px;
+    margin: 50px auto;
+    padding: 30px 40px;
+
+    background: #f5eee0;
+    border-radius: 10px;
+}
+
+.seguridad h2 {
+    color: #6f6047;
+    margin-bottom: 15px;
+}
+
+.seguridad p {
+    color: #5e594f;
+}
