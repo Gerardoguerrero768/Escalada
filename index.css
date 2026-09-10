@@ -1,94 +1,210 @@
 html{
-    background-color: grey;
+    background-color: aquamarine;
     border: none;
+    
+}
+
+body{
+    width: 75%;
+    margin: auto;
 }
 header {
-    background: #dfe8e1;
-    border-bottom: 2px solid #c5d0c7;
+    background: azure;
+    border-bottom: 4px solid grey;
+    border-left: 4px solid grey;
+    border-radius: 1rem;
 }
 
-nav {
-    max-width: 1200px;
-    margin: auto;
-    padding: 18px 30px;
+h1{
+    font-size: 4rem;
+    text-align: center;
 
+}
+.flex{
     display: flex;
+    flex-direction: row;
     align-items: center;
-    gap: 10px;
+    justify-content: center;
+    gap: 2rem;
+    min-height: 6rem;
 }
-
-nav h1 {
-    margin-right: auto;
-    color: #30483a;
-    font-size: 25px;
-}
-
-nav button {
+nav hr{
     border: none;
-    background: #cbd9ce;
-    color: #30483a;
-    padding: 10px 16px;
-    font-size: 15px;
-    cursor: pointer;
-    border-radius: 6px;
+    height: 0.2rem;
+    background: linear-gradient(to right, transparent, aquamarine, transparent);
 }
 
-.nivel {
-    margin: 30px 0;
-    padding: 25px;
-    border-radius: 10px;
+a{
+    color: black;
+    font-size: 2rem;
+    text-decoration: none;
+    margin: 10px;
+    background-color: rgb(139, 190, 18);
+    border-radius: 3rem;
+    padding: 0.5rem;
+
+    transition: 0.3s;
+}
+a:hover{
+    padding: 0.6rem;
+    font-size: 2.25rem;
 }
 
-.principiante {
-    background: #e9f3e9;
+#inicio h2{
+    text-align: center;
+    font-size: 2rem;
 }
 
-.principiante h3 {
-    color: #527653;
+#inicio div{
+    background-color: azure;
+    border-bottom: 4px solid grey;
+    border-left: 4px solid grey;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+}
+#inicio div h3{
+    text-align: center;
+}
+#inicio div hr{
+    border: none;
+    height: 0.2rem;
+    background: linear-gradient(to right, transparent, aquamarine, transparent);
 }
 
-.intermedio {
-    background: #f8f0dc;
+#tiposescalada{
+    background: azure;
+    border-bottom: 4px solid grey;
+    border-left: 4px solid grey;
+    border-radius: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    text-align: center;
+}
+#tiposescalada h2{
+    font-size: 2rem;
 }
 
-.intermedio h3 {
-    color: #80682d;
+
+#tiposescalada div div{
+    background: azure;
+    border: 4px solid rgb(139, 190, 18);
+    border-radius: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: center;
+    margin-bottom: 1rem;
 }
 
-.dificil {
-    background: #f5e6e6;
+#tiposescalada h2{
+    margin-top: 0%;
+}
+#tiposescalada h3{
+    margin: 0%;
 }
 
-.dificil h3 {
-    color: #875454;
+#tiposescalada hr{
+    border: none;
+    height: 0.2rem;
+    background: linear-gradient(to right, transparent, aquamarine, transparent);
 }
 
-#tiposescalada h5 {
-    grid-column: 1 / -1;
-
-    background: #fff2d3;
-    padding: 18px;
-
-    border-radius: 8px;
-
-    color: #6d592e;
-    font-size: 14px;
+#equipo{
+    background-color: azure;
+    border-bottom: 4px solid grey;
+    border-left: 4px solid grey;
+    border-radius: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    text-align: center;
+    margin-top: 2rem;
 }
 
-.seguridad {
-    max-width: 1050px;
-    margin: 50px auto;
-    padding: 30px 40px;
-
-    background: #f5eee0;
-    border-radius: 10px;
+#equipo h2{
+    font-size: 2rem;
+    margin-top: 0%;
 }
 
-.seguridad h2 {
-    color: #6f6047;
-    margin-bottom: 15px;
+#equipo div div{
+    background-color: azure;
+    border: 4px solid rgb(139, 190, 18);
+    border-radius: 1rem;
+    text-align: center;
+    margin-bottom: 1rem;
 }
 
-.seguridad p {
-    color: #5e594f;
+#equipo h3{
+    margin: 0%;
+}
+
+#equipo hr{
+    border: none;
+    height: 0.2rem;
+    background: linear-gradient(to right, transparent, aquamarine, transparent);
+}
+
+
+#montanas{
+    background-color: azure;
+    border-bottom: 4px solid grey;
+    border-left: 4px solid grey;
+    border-radius: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+#montanas h2{
+    font-size: 2rem;
+    margin-top: 0%;
+}
+
+#montanas .nivel{
+    background-color: azure;
+    border: 4px solid rgb(139, 190, 18);
+    border-radius: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+
+#montanas h3{
+    margin: 0%;
+}
+
+#montanas h4{
+    margin-bottom: 0%;
+}
+
+#montanas hr{
+    border: none;
+    height: 0.2rem;
+    background: linear-gradient(to right, transparent, aquamarine, transparent);
+}
+
+#seguridad{
+    background-color: azure;
+    border-bottom: 4px solid grey;
+    border-left: 4px solid grey;
+    border-radius: 1rem;
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+#seguridad h2{
+    font-size: 2rem;
+    margin-top: 0%;
+}
+
+img{
+    margin-top: 1rem;
+    width: 25rem;
+    height: 18rem;
+    object-fit: cover;
 }
