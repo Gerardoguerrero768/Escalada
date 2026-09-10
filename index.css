@@ -173,7 +173,7 @@ a:hover{
 
 
 #montanas h3{
-    margin: 0%;
+    margin: 100%;
 }
 
 #montanas h4{
@@ -184,6 +184,10 @@ a:hover{
     border: none;
     height: 0.2rem;
     background: linear-gradient(to right, transparent, aquamarine, transparent);
+}
+
+#montanas p{
+    margin-bottom: 4rem;
 }
 
 #seguridad{
